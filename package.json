@@ -1,6 +1,6 @@
 {
   "name": "abell-sitemap-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Builds sitemap for Abell (https://abelljs.org)",
   "main": "plugin/index.js",
   "scripts": {
