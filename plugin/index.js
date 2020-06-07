@@ -7,7 +7,7 @@ function getSiteMapXML(sitemapData) {
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     ${
     sitemapData.map(entry => /* html */ `
-    <url>{
+    <url>
       <loc>${entry.loc}</loc>
       ${entry.lastmod ? `<lastmod>${entry.lastmod}</lastmod>` : ''}
       <changefreq>${entry.changefreq}</changefreq>
